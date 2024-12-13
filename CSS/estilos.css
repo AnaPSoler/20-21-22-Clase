@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.logo {
+  width: 150px;
+}
+
+.boton-estilo {
+  border: none;
+  color: white;
+  background-color: #212529;
+  &:hover{
+    color: #f1c112;
+  }
+}
+
+.boton-formulario {
+  border: 2px solid #f1c112;
+  background-color: #f1c112;
+  color: #212529;
+
+  &:hover{
+    border: 2px solid #212529;
+    background-color: #212529;
+    color: #f1c112;
+  }
+}
+
+/* MAIN */
+
+.tamanio-carrusel {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  padding: 0;
+}
+
+.tamanio-imagen-tarjetas{
+  width: 300px;
+  height: 500px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.color-tarjeta {
+  background-color: #212529;
+}
+
+.estilo-main {
+  background-color: #363d44; 
+}
+
+/* FOOTER */
+
+.color {
+  color: white;
+}
+
+.estilo {  
+  text-align: center;
+  &:hover {
+    color: #f1c112;
+  }
+}
